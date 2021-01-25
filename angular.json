@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "kata-output"
+    }
+  },
+  "defaultProject": "kata-output",
+  "cli": {
+    "analytics": false
+  }
 }

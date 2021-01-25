@@ -2,26 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
-## Development server
+## Project ref: <https://app.pluralsight.com/guides/passing-data-from-nested-component-output>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Introduction to @Output()
 
-## Code scaffolding
+A decorator emits an event up to a parent component using event binding. The parent component should have a function that accepts the data emitted from the child component. It gets the data before calling the ```ngOnInit()``` method.
+```ngOnInit()``` is one of the lifecycle hooks in Angular, and it's called after the ```constructor()``` and ```ngOnChanges()``` methods.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+There are various ways we can make one component interact with another component. Two of these include:
 
-## Build
+    * Using services
+    * Using @viewChild()
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+However, ```@Output()``` is used if the hierarchy level between parent and child is smaller. If there is a large hierarchy, I suggest you use services.
