@@ -6,6 +6,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./parent-output.component.css"]
 })
 export class ParentOutputComponent implements OnInit {
+  msgFromChild;
   constructor() {}
 
   ngOnInit() {}
@@ -14,5 +15,7 @@ export class ParentOutputComponent implements OnInit {
       "this is the child data displaying in parent component: ",
       data
     );
+
+    this.msgFromChild = data;
   }
 }

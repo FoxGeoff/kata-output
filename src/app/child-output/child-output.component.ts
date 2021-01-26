@@ -11,6 +11,6 @@ export class ChildOutputComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.demo.emit("This is the child component");
+    this.demo.emit("This is the child component calling!");
   }
 }
