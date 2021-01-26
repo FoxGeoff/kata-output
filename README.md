@@ -29,3 +29,8 @@ In the parent component, we've just called the child component. To access the da
 ```<app-child-output (demo)="acceptData($event)"></app-child-output>```
 
 ```$event``` is mandatory to use as it gets the data from the child and passes it to the parent function.
+
+### Further reading
+
+1. @input() directive <https://app.pluralsight.com/guides/passing-data-to-nested-component-@input>
+2. @ViewChild() directive, template reference <https://app.pluralsight.com/guides/using-template-reference-variables-to-interact-with-nested-components>
