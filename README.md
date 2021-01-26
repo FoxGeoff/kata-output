@@ -30,7 +30,16 @@ In the parent component, we've just called the child component. To access the da
 
 ```$event``` is mandatory to use as it gets the data from the child and passes it to the parent function.
 
-### Further reading
+### Further reading (Angular Guides)
 
 1. @input() directive <https://app.pluralsight.com/guides/passing-data-to-nested-component-@input>
-2. @ViewChild() directive, template reference <https://app.pluralsight.com/guides/using-template-reference-variables-to-interact-with-nested-components>
+2. Using Template Reference Variables to Interact with Nested Components @ViewChild() directive, template reference <https://app.pluralsight.com/guides/using-template-reference-variables-to-interact-with-nested-components>
+3. Querying the DOM with @ViewChild and @ViewChildren <https://app.pluralsight.com/guides/querying-the-dom-with-@viewchild-and-@viewchildren>
+4. Difference between Template-Driven and Reactive Forms in Angular <https://app.pluralsight.com/guides/difference-between-template-driven-and-reactive-forms-angular>
+5. Using the Ahead-of-Time (AOT) Compiler <https://app.pluralsight.com/guides/using-the-ahead-of-time-(aot)-compiler>
+6. UI State Management with Redux in Angular 4 <https://app.pluralsight.com/guides/ui-state-management-with-redux-in-angular-4>
+7. Understanding the Purpose of Nested Components <https://app.pluralsight.com/guides/understanding-the-purpose-nested-components>
+8. One-way and Two-way Data Binding in Angular <https://app.pluralsight.com/guides/one-and-two-way-data-binding-angular>
+9. Angular Data Binding Overview <https://app.pluralsight.com/guides/angular-data-binding-overview>
+10. How to Submit Form Data Using Angular <https://app.pluralsight.com/guides/how-to-submit-form-data-using-angular>
+11. Understanding the Basics of HTTP <https://app.pluralsight.com/guides/understanding-the-basics-http>
